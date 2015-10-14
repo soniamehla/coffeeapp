@@ -22,11 +22,10 @@ app.use cors()
 # enable ALL CORS requests
 # app.use(errorHandler.init);
 routes = require('./route')(app)
-console.log 'Hello'
 console.log 'About to crank up node'
 console.log 'PORT=' + port
 console.log 'NODE_ENV=' + environment
-console.log '123323'
+console.log '123aaaaaaaaaaaaasdsdsdsd23'
 app.get '/aaa', (req, res) ->
   res.status(200).json abc: 'def'
   return

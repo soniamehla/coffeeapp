@@ -370,8 +370,7 @@ function serve(args) {
             'NODE_ENV': args.mode,
             'PORT': port
         },
-        watch: [paths.server, paths.coffee],
-        ext: ["coffee js json"]
+        watch: [paths.server]
     };
 
     var exec;
